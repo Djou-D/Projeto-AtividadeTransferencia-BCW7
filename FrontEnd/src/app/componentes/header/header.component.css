@@ -1,0 +1,24 @@
+body
+{
+  background-color: rgb(27, 23, 23);
+}
+
+a
+{
+  color: rgb(207, 243, 237);
+}
+
+div a
+{
+  margin-left: 50px;
+}
+
+li a
+{
+  margin-right: 50px;
+}
+
+span
+{
+  color: rgb(75, 143, 199);
+}

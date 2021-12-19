@@ -1,0 +1,42 @@
+
+<body>
+
+<div class="container-fluid">
+
+
+  <div class="row">
+    <h2 class="text-center">Transferências</h2>
+
+  <div class="card mb-5" *ngFor="let item of ListarClientes">
+
+    <!-- for each do angular -->
+    <div class="card-body mx-4 mt-4 p-4" >
+
+      <h5 class="">{{item.nomeCliente}}</h5>
+
+      <h5 class="mt-3">Conta: {{item.contaCliente}}</h5>
+
+      <h5 class="mt-3">Valor: {{item.valor | currency: 'BRL'}}</h5>
+
+    </div>
+      <div class="card-footer botao">
+        <div>
+          <img src="/assets/img/edit.png" (click)="editar(item.id_transferencia)" title="Editar">
+        </div>
+
+        <div>
+          <img src="/assets/img/close.png" (click)="excluir(item.id_transferencia)" title="Excluir" >
+        </div>
+      </div>
+
+    </div>
+
+
+</div>
+
+
+<!-- <button routerLink="/add" type="button" class="btn btn-success my-3">Criar tranferência</button> -->
+</div>
+
+
+</body>

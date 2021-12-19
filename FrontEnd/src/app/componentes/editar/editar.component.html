@@ -1,0 +1,62 @@
+<body>
+
+  <div class="container">
+
+    <div class="row">
+
+    <h3 class="mb-3 mt-4">Edição de Transferência</h3>
+
+
+        <div class="card">
+          <form class="form">
+            <div class="mb-4">
+              <label for="nome" class="form-label">Nome</label>
+
+              <input
+                [(ngModel)]="cliente.nomeCliente"
+                type="text"
+                id="nome"
+                class="form-control"
+                name="nome"
+
+              />
+            </div>
+
+            <div class="mb-4">
+              <label for="conta" class="form-label">Conta</label>
+
+              <input
+                [(ngModel)]="cliente.contaCliente"
+                type="text"
+                id="conta"
+                class="form-control"
+                name="conta"
+
+              />
+            </div>
+
+            <div class="mb-5">
+              <label for="valor" class="form-label">Valor da transação</label>
+
+              <input
+                [(ngModel)]="cliente.valor"
+                type="number"
+                id="valor"
+                class="form-control"
+                name="valor"
+
+              />
+            </div>
+
+            <div class="mt-5">
+              <!-- Adicionando a função adicionar ao click do botão -->
+              <button (click)="editar()" class="btn btn-success">
+                Salvar Edição
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+</body>
