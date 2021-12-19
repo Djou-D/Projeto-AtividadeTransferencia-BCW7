@@ -44,7 +44,8 @@
 - **Angular** 
 - **Bootstrap**
 
+---
 
-**Projeto desenvolvido por: Dionatam Lima**
+Projeto desenvolvido por: Dionatam Lima
 
 
