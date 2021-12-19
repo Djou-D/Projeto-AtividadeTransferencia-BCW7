@@ -1,6 +1,8 @@
 # Projeto Gerenciador de transferência.
 
-<amp-video controls width="500" src="/assets/videos/projetoKryptoo.mp4">
+<video controls width="500" height="350">
+<source  src="/assets/videos/projetoKryptoo.mp4" type="video/mp4">
+</video>
 
 
 ### BackEnd
