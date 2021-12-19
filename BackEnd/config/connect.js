@@ -3,7 +3,7 @@ const mysql = require('mysql')
 const connect = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Hell0-Hell0', //Lembrar de Apagar a senha.
+  password: 'SenhaDoDB', //Senha removida por questões de segurança.
   port: 3306,
   database: 'db_transferencia'
 })
