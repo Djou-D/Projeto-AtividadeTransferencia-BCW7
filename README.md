@@ -1,6 +1,6 @@
 # Projeto Gerenciador de transferência.
 
-![Interface do projeto](url/to/assets/img/inicio.png)
+![Interface do projeto](/assets/img/inicio.png)
 
 
 ### BackEnd
