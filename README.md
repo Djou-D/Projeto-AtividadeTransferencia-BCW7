@@ -1,6 +1,6 @@
 # Projeto Gerenciador de transferência.
 
-![Interface do projeto](/assets/img/inicio.png)
+<amp-video controls width="500" src="/assets/videos/projetoKryptoo.mp4">
 
 
 ### BackEnd
